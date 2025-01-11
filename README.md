@@ -1,0 +1,3 @@
+# React Router Dom Issue: Catch-all Route
+
+This repository demonstrates a common issue encountered when using the catch-all route (`/*`) in `react-router-dom`.  The problem arises when this route is placed after more specific routes.  This can lead to unexpected behavior where the catch-all route intercepts requests intended for other routes, preventing them from rendering correctly. The solution involves reordering the routes to prioritize more specific routes before the catch-all route.
